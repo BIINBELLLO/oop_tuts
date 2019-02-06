@@ -5,5 +5,4 @@
 	}
 
 $object = new NewClass;
-var_dump($object);
 ?>
