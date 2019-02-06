@@ -15,7 +15,9 @@
 	// unset($object);
 	// echo $object->getProperty(). "<br>";
 
-echo $object;
+	// echo $object;
+
+	echo NewClass::staticMethod();
 
 
 
