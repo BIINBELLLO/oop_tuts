@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>OOP Tuts</title>
 </head>
 <body>
 <?php
@@ -26,5 +26,7 @@
 
 
 ?>
+
+<a href="calculator.php">Calculator App</a>
 </body>
 </html>
