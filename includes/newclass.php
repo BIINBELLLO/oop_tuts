@@ -11,6 +11,4 @@
 			return $this->data;
 		}
 	}
-
-$object = new NewClass;
 ?>
