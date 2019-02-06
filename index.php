@@ -1,6 +1,7 @@
 <?php
-	include('includes/newclass.php');
-	$object = new NewClass;
+	// include('includes/newclass.php');
+	include('includes/users.php');
+	// $object = new NewClass;
 	// $object_2 = new NewClass;
 ?>
 <!DOCTYPE html>
@@ -14,16 +15,13 @@
 	// $object->setNewData("This is the first user property");
 	// unset($object);
 	// echo $object->getProperty(). "<br>";
-
 	// echo $object;
-
-	echo NewClass::staticMethod();
-
-
-
+	// echo NewClass::staticMethod();
 	// $object_2->setNewData("This is the second user property");
-
 	// echo $object_2->getProperty(). "<br>";
+
+	$user = new Users('Hassan' , 'Yusuf' , 'Black' , 'Brown' , 'Arabian');
+	echo $user->fullName();
 
 
 
