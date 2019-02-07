@@ -28,5 +28,9 @@
 ?>
 
 <a href="calculator.php">Calculator App</a>
+<br>
+<br>
+
+<a href="data.php">Database Tuts</a>
 </body>
 </html>
